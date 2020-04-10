@@ -29,8 +29,12 @@
       </nav>
     </div>
   </header>
-     
-  <div class="container home">
+  
+  <div id="scroll-container">You are on the top</div>
+  <p>Click on this box and press a key</p>
+  <textarea id="keyDown" placeholder="Press keys here"></textarea>
+  <p id="output"></p>
+  <div id="container-home" class="container home">
     <header class="intro">
       <img src="img/fun-bus.jpg" alt="bus in the sand">
       <h2>Welcome To Fun Bus!</h2>
@@ -58,9 +62,10 @@
      
     </section>
     <section class="content-destination">
+      <div class="dropzone"></div>
       <h2>Pick Your Destination</h2>
       <p>Expedition excursion design darn excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-      <img src="img/destination.jpg" alt="Second slide">
+      <img id="draggable" draggable="true" src="img/destination.jpg" alt="Second slide">
     </section>
     <section class="content-pick">
 
